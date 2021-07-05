@@ -1,0 +1,22 @@
+.Team {
+  font-family: sans-serif;
+  height: 100vh;
+  background-color: lightskyblue;
+  font-family: sans-serif;
+  text-align: center;
+}
+.Main {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 608px) {
+  .Main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.Cards {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
